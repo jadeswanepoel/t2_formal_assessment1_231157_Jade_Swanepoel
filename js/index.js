@@ -10,7 +10,7 @@ registerAccount = () => {
     let number = +document.getElementById("number").value
     let subject = document.getElementById("subject").value
 
-    if(defaultCheck1 = checked){
+    if(defaultCheck1 = document.getElementById(defaultCheck1)){
         allStudents.push({
             studentFirst: first,
             studentEmail: email,
